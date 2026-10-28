@@ -1,0 +1,15 @@
+# gated data and regenerable output
+data/
+logs/
+
+# environments, caches, secrets
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.env
+*.token
+
+# personal notes
+notes/

@@ -1,0 +1,10 @@
+# How recorded responses become 0/1 labels. Read by sparse_observer.data.labels.
+# native: keep responses that are exactly 0 or 1 and drop the rest.
+# threshold: label = response >= value (not used in the reported results).
+# excluded: the benchmark gets no labels.
+labels:
+  default:
+    mode: native
+  mmdocrag:
+    # judge scores in steps of 0.04; there is no obvious rule for turning them into 0/1 targets
+    mode: excluded

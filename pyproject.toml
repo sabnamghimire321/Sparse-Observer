@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sparse-observer"
+version = "0.1.0"
+description = "Predicting AI benchmark outcomes from a handful of revealed results"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sabnam Ghimire" }]
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "pyarrow", "pyyaml", "scipy", "scikit-learn", "huggingface_hub"]
+
+[project.optional-dependencies]
+report = ["matplotlib"]
+dev = ["pytest"]
+embeddings = ["sentence-transformers"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

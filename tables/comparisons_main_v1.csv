@@ -1,0 +1,43 @@
+scope,pairs,clusters,mean_diff,ci_low,ci_high,share_better,comparison,question
+matharena,81,77,-0.012438587258956321,-0.022630169327513636,-0.0033862509056627266,0.5061728395061729,pair_mean_k2 - constant_0.5,adapting a base rate to labels
+multi_swebench,82,20,-0.07221242994446968,-0.08546831386093602,-0.05659472145839298,0.6951219512195121,pair_mean_k2 - constant_0.5,adapting a base rate to labels
+real_webagents,26,26,-0.04973330919763538,-0.07752539869195035,-0.023021115369973484,0.6153846153846154,pair_mean_k2 - constant_0.5,adapting a base rate to labels
+researchcodebench,31,31,-0.023565671826679905,-0.04578301586461037,-0.004960516410024432,0.5161290322580645,pair_mean_k2 - constant_0.5,adapting a base rate to labels
+H1 set: multi_swebench + real_webagents,108,35,-0.06680078976467622,-0.08019297039055584,-0.05225660727887259,0.6759259259259259,pair_mean_k2 - constant_0.5,adapting a base rate to labels
+all pairs except swe_rebench,220,120,-0.04069339404176169,-0.050766191044757256,-0.02994823261737143,0.5909090909090909,pair_mean_k2 - constant_0.5,adapting a base rate to labels
+small pairs (<= 150 items),60,50,-0.04395470126909731,-0.05952944679834737,-0.026734709952308717,0.6,pair_mean_k2 - constant_0.5,adapting a base rate to labels
+matharena,81,77,-0.002561546642733157,-0.007142256920782983,0.00029473300055829396,0.12345679012345678,offset_logit_s1 - offset_logit_s0,"H1 (pre-registered): subject ability, full scale"
+multi_swebench,82,20,-0.0027013052315261045,-0.010154882776317528,0.006883582835087804,0.4024390243902439,offset_logit_s1 - offset_logit_s0,"H1 (pre-registered): subject ability, full scale"
+real_webagents,26,26,-0.0033145327670264482,-0.007679190682355216,0.0002467387839483795,0.38461538461538464,offset_logit_s1 - offset_logit_s0,"H1 (pre-registered): subject ability, full scale"
+researchcodebench,31,31,0.0025174119476454675,-0.0016440592302655417,0.007455355778504126,0.1935483870967742,offset_logit_s1 - offset_logit_s0,"H1 (pre-registered): subject ability, full scale"
+H1 set: multi_swebench + real_webagents,108,35,-0.0028489340826650758,-0.009144552350565835,0.003836747422677326,0.39814814814814814,offset_logit_s1 - offset_logit_s0,"H1 (pre-registered): subject ability, full scale"
+all pairs except swe_rebench,220,120,-0.0019869563118736565,-0.0053052913152910235,0.0013721976440872394,0.2681818181818182,offset_logit_s1 - offset_logit_s0,"H1 (pre-registered): subject ability, full scale"
+small pairs (<= 150 items),60,50,-0.0018750794887997392,-0.006046262711515337,0.002209872450080858,0.26666666666666666,offset_logit_s1 - offset_logit_s0,"H1 (pre-registered): subject ability, full scale"
+matharena,81,77,-0.0017999603029509054,-0.0043843106565549465,-3.9090741042992825e-05,0.12345679012345678,offset_logit_s0.5 - offset_logit_s0,"exploratory: subject ability, half scale"
+multi_swebench,82,20,-0.003015854347778136,-0.007641680095303864,0.001750511220937914,0.47560975609756095,offset_logit_s0.5 - offset_logit_s0,"exploratory: subject ability, half scale"
+real_webagents,26,26,-0.0026897060102823948,-0.005538791575289012,-0.0002933888650246521,0.38461538461538464,offset_logit_s0.5 - offset_logit_s0,"exploratory: subject ability, half scale"
+researchcodebench,31,31,-5.403077854944819e-05,-0.0020895524579474254,0.0018767012715604544,0.22580645161290322,offset_logit_s0.5 - offset_logit_s0,"exploratory: subject ability, half scale"
+H1 set: multi_swebench + real_webagents,108,35,-0.0029373371554180495,-0.006682181262378907,0.0008333577918279467,0.4537037037037037,offset_logit_s0.5 - offset_logit_s0,"exploratory: subject ability, half scale"
+all pairs except swe_rebench,220,120,-0.0021122915975418438,-0.004091691787316037,-0.00013772257709492041,0.3,offset_logit_s0.5 - offset_logit_s0,"exploratory: subject ability, half scale"
+small pairs (<= 150 items),60,50,-0.002092275454242664,-0.004599641699814088,0.00017477549533180493,0.2833333333333333,offset_logit_s0.5 - offset_logit_s0,"exploratory: subject ability, half scale"
+matharena,81,77,0.00466833562355434,0.0022954263574338574,0.007160041747087258,0.38271604938271603,empirical_bayes_t1 - pair_mean_k2,exploratory: empirical-Bayes prior vs shrunk mean
+multi_swebench,82,20,-0.00042286146448968436,-0.0015964283804334222,0.0005650058469945199,0.4878048780487805,empirical_bayes_t1 - pair_mean_k2,exploratory: empirical-Bayes prior vs shrunk mean
+real_webagents,26,26,-0.0005581335977134304,-0.0027432063575889808,0.0015371130398524862,0.6153846153846154,empirical_bayes_t1 - pair_mean_k2,exploratory: empirical-Bayes prior vs shrunk mean
+researchcodebench,31,31,-0.001928462906725955,-0.002894379177016546,-0.0009170054817351699,0.7096774193548387,empirical_bayes_t1 - pair_mean_k2,exploratory: empirical-Bayes prior vs shrunk mean
+H1 set: multi_swebench + real_webagents,108,35,-0.00045542697804354913,-0.0015783096985572764,0.0006138779615975804,0.5185185185185185,empirical_bayes_t1 - pair_mean_k2,exploratory: empirical-Bayes prior vs shrunk mean
+all pairs except swe_rebench,220,120,0.0012234850989576982,0.0001287052648547967,0.0025696229721683065,0.4954545454545455,empirical_bayes_t1 - pair_mean_k2,exploratory: empirical-Bayes prior vs shrunk mean
+small pairs (<= 150 items),60,50,0.001078970262825398,-0.0010129270464071581,0.0031333017089079595,0.5,empirical_bayes_t1 - pair_mean_k2,exploratory: empirical-Bayes prior vs shrunk mean
+matharena,81,77,0.004306433288558054,0.0019412963816224933,0.006861070009844236,0.4074074074074074,offset_logit_s0 - pair_mean_k2,exploratory: MAP offset vs shrunk mean
+multi_swebench,82,20,0.0038153822187857686,0.0015282637613184145,0.005783732883338034,0.43902439024390244,offset_logit_s0 - pair_mean_k2,exploratory: MAP offset vs shrunk mean
+real_webagents,26,26,0.00036681639883356476,-0.003185824387544684,0.0038502105200267354,0.5384615384615384,offset_logit_s0 - pair_mean_k2,exploratory: MAP offset vs shrunk mean
+researchcodebench,31,31,-0.004278246777040751,-0.006606655356096446,-0.0017731295836634524,0.7741935483870968,offset_logit_s0 - pair_mean_k2,exploratory: MAP offset vs shrunk mean
+H1 set: multi_swebench + real_webagents,108,35,0.002985171928797275,0.0008932110479488944,0.004924116181834036,0.46296296296296297,offset_logit_s0 - pair_mean_k2,exploratory: MAP offset vs shrunk mean
+all pairs except swe_rebench,220,120,0.002448154611795659,0.0010727921201055337,0.0038334446174010614,0.4863636363636364,offset_logit_s0 - pair_mean_k2,exploratory: MAP offset vs shrunk mean
+small pairs (<= 150 items),60,50,0.0018850441995769936,-0.0005318133064774514,0.00449338913970485,0.5166666666666667,offset_logit_s0 - pair_mean_k2,exploratory: MAP offset vs shrunk mean
+matharena,81,77,0.00927481316838731,0.006568122090595264,0.012017640199069231,0.2716049382716049,empirical_bayes_t0.5 - empirical_bayes_t1,exploratory: tempered vs full likelihood
+multi_swebench,82,20,0.005392957896161669,0.003396442752780226,0.007113651346405223,0.4146341463414634,empirical_bayes_t0.5 - empirical_bayes_t1,exploratory: tempered vs full likelihood
+real_webagents,26,26,0.00231854038632733,-0.0007493738619755402,0.005508071714160528,0.46153846153846156,empirical_bayes_t0.5 - empirical_bayes_t1,exploratory: tempered vs full likelihood
+researchcodebench,31,31,-0.0028442151857074717,-0.00490652149104056,-0.0005721363476499383,0.7419354838709677,empirical_bayes_t0.5 - empirical_bayes_t1,exploratory: tempered vs full likelihood
+H1 set: multi_swebench + real_webagents,108,35,0.004652820347497846,0.0027956645081142865,0.006329064804315241,0.42592592592592593,empirical_bayes_t0.5 - empirical_bayes_t1,exploratory: tempered vs full likelihood
+all pairs except swe_rebench,220,120,0.0052981536064191275,0.00398000735608341,0.006845922719521285,0.41363636363636364,empirical_bayes_t0.5 - empirical_bayes_t1,exploratory: tempered vs full likelihood
+small pairs (<= 150 items),60,50,0.004712313735198681,0.002228844333573457,0.0073482301890568855,0.45,empirical_bayes_t0.5 - empirical_bayes_t1,exploratory: tempered vs full likelihood

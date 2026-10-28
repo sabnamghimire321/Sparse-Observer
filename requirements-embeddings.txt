@@ -1,0 +1,7 @@
+# Only for the optional text-transfer experiment: python scripts/run_all.py --with-embeddings
+-r requirements.txt
+sentence-transformers==6.1.0
+torch==2.14.1
+transformers==5.18.0
+tokenizers==0.23.2
+safetensors==0.8.0

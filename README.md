@@ -1,9 +1,6 @@
 # Sparse Observer
 
-How much can you say about an AI system's results on a benchmark after seeing only a handful of them?
-
-This is a small research project I did on my own. It is not a finished product and I am not
-claiming a new method. It is a careful look at one question, with the failures written down
+This is a small research project.It is a careful look at one question, with the failures written down
 next to the successes.
 
 The task setup is based on the public description of the NeurIPS 2026 Predictive AI Evaluation
